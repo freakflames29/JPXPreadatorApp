@@ -14,6 +14,9 @@
 		338FCDDC2C2867AF007FF474 /* JPXPreditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FCDDB2C2867AF007FF474 /* JPXPreditorTests.swift */; };
 		338FCDE62C2867AF007FF474 /* JPXPreditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FCDE52C2867AF007FF474 /* JPXPreditorUITests.swift */; };
 		338FCDE82C2867AF007FF474 /* JPXPreditorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FCDE72C2867AF007FF474 /* JPXPreditorUITestsLaunchTests.swift */; };
+		338FCDF52C286856007FF474 /* jpapexpredators.json in Resources */ = {isa = PBXBuildFile; fileRef = 338FCDF42C286856007FF474 /* jpapexpredators.json */; };
+		338FCDF92C286C90007FF474 /* JPXpreditorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FCDF82C286C90007FF474 /* JPXpreditorModel.swift */; };
+		338FCDFB2C28713E007FF474 /* Predators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FCDFA2C28713D007FF474 /* Predators.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		338FCDE12C2867AF007FF474 /* JPXPreditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JPXPreditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		338FCDE52C2867AF007FF474 /* JPXPreditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPXPreditorUITests.swift; sourceTree = "<group>"; };
 		338FCDE72C2867AF007FF474 /* JPXPreditorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPXPreditorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		338FCDF42C286856007FF474 /* jpapexpredators.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = jpapexpredators.json; path = JP17Resources/jpapexpredators.json; sourceTree = SOURCE_ROOT; };
+		338FCDF82C286C90007FF474 /* JPXpreditorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPXpreditorModel.swift; sourceTree = "<group>"; };
+		338FCDFA2C28713D007FF474 /* Predators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predators.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,9 @@
 			children = (
 				338FCDCA2C2867AD007FF474 /* JPXPreditorApp.swift */,
 				338FCDCC2C2867AD007FF474 /* ContentView.swift */,
+				338FCDF82C286C90007FF474 /* JPXpreditorModel.swift */,
+				338FCDFA2C28713D007FF474 /* Predators.swift */,
+				338FCDF42C286856007FF474 /* jpapexpredators.json */,
 				338FCDCE2C2867AE007FF474 /* Assets.xcassets */,
 				338FCDD02C2867AE007FF474 /* Preview Content */,
 			);
@@ -233,6 +242,7 @@
 			files = (
 				338FCDD22C2867AE007FF474 /* Preview Assets.xcassets in Resources */,
 				338FCDCF2C2867AE007FF474 /* Assets.xcassets in Resources */,
+				338FCDF52C286856007FF474 /* jpapexpredators.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				338FCDF92C286C90007FF474 /* JPXpreditorModel.swift in Sources */,
 				338FCDCD2C2867AD007FF474 /* ContentView.swift in Sources */,
+				338FCDFB2C28713E007FF474 /* Predators.swift in Sources */,
 				338FCDCB2C2867AD007FF474 /* JPXPreditorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
