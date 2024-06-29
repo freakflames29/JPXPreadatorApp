@@ -17,6 +17,7 @@
 		338FCDF52C286856007FF474 /* jpapexpredators.json in Resources */ = {isa = PBXBuildFile; fileRef = 338FCDF42C286856007FF474 /* jpapexpredators.json */; };
 		338FCDF92C286C90007FF474 /* JPXpreditorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FCDF82C286C90007FF474 /* JPXpreditorModel.swift */; };
 		338FCDFB2C28713E007FF474 /* Predators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 338FCDFA2C28713D007FF474 /* Predators.swift */; };
+		33A8E78A2C30740900933140 /* PredatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A8E7892C30740900933140 /* PredatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		338FCDF42C286856007FF474 /* jpapexpredators.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = jpapexpredators.json; path = JP17Resources/jpapexpredators.json; sourceTree = SOURCE_ROOT; };
 		338FCDF82C286C90007FF474 /* JPXpreditorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JPXpreditorModel.swift; sourceTree = "<group>"; };
 		338FCDFA2C28713D007FF474 /* Predators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predators.swift; sourceTree = "<group>"; };
+		33A8E7892C30740900933140 /* PredatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredatorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			children = (
 				338FCDCA2C2867AD007FF474 /* JPXPreditorApp.swift */,
 				338FCDCC2C2867AD007FF474 /* ContentView.swift */,
+				33A8E7892C30740900933140 /* PredatorView.swift */,
 				338FCDF82C286C90007FF474 /* JPXpreditorModel.swift */,
 				338FCDFA2C28713D007FF474 /* Predators.swift */,
 				338FCDF42C286856007FF474 /* jpapexpredators.json */,
@@ -271,6 +274,7 @@
 				338FCDCD2C2867AD007FF474 /* ContentView.swift in Sources */,
 				338FCDFB2C28713E007FF474 /* Predators.swift in Sources */,
 				338FCDCB2C2867AD007FF474 /* JPXPreditorApp.swift in Sources */,
+				33A8E78A2C30740900933140 /* PredatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

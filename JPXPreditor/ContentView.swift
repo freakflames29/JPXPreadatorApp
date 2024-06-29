@@ -34,14 +34,7 @@ struct ContentView: View {
                 
                 NavigationLink{
                    
-                        VStack{
-                            Image(dino.img)
-                                .resizable()
-                                .scaledToFit()
-                                .padding()
-                          
-                        }.navigationTitle(dino.name)
-                        
+                     PredatorView(prad: dino)
                        
                     
                     
